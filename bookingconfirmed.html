@@ -1,7 +1,73 @@
-<h1>🎉 Booking Confirmed!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Confirmed</title>
 
-<p>Thank you for booking with us.</p>
+    <style>
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#ffe5e5;
+            font-family:Arial, sans-serif;
+        }
 
-<button onclick="window.location.href='kas.html'">
-    Return to Home
-</button>
+        .box{
+            background:white;
+            padding:40px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 0 15px rgba(0,0,0,0.2);
+            width:400px;
+        }
+
+        h1{
+            color:#f46868;
+            margin-bottom:15px;
+        }
+
+        p{
+            font-size:18px;
+            color:#555;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:25px;
+            padding:12px 25px;
+            background:#f46868;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+            font-size:16px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#e25555;
+            transform:scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>🎉 Booking Confirmed!</h1>
+
+        <p>
+            Your appointment has been booked successfully.
+        </p>
+
+        <!-- Returns to the main page -->
+        <a href="Kas.html" class="btn">
+            Book Another Appointment
+        </a>
+
+    </div>
+
+</body>
+</html>
